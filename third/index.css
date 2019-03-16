@@ -1,0 +1,48 @@
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+main>section {
+    flex: 1;
+}
+
+.one {
+    background-color: #d8d8d8;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 20px;
+}
+
+.one>div {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #4a90e2;
+}
+
+.two {
+    background-color: white;
+    flex: 0;
+    padding: 30px;
+    font-size: 1.4em;
+}
+
+.three {
+    background-color: #4a90e2;
+}
+
+.four {
+    background-color: #50e3c2;
+}
+
+.five {
+    background-color: #b8e986;
+}
+
+.six {
+    background-color: #f8e71c;
+}
