@@ -1,0 +1,66 @@
+.top, .middle, .welcome {
+    margin: 20px;
+    padding: 20px;
+    height: 20vh;
+    display: flex;
+}
+
+.top {
+    border: 4px black solid;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.purple {
+    width: 4%;
+    height: 70%;
+    background-color: purple;
+    margin: 0px 20px 0px;
+}
+
+.green {
+    width: 200px;
+    height: 100%;
+    background-color: green;
+    margin: 0px 20px 0px;
+}
+
+.circle {
+    height: calc(20vh - 48px);
+    width: calc(20vh - 48px);
+    background-color: skyblue;
+    border-radius: calc(20vh - 48px);
+}
+
+.middle {
+    border: 4px black dotted;
+    padding: 25px;
+}
+
+.shadow {
+    width: 100%;
+    height: 100%;
+    background-color: #fffacd;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.welcome {
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.welcome>div {
+    border: 1px lightgray solid;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px grey;
+    color: rgb(22, 22, 153);
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: .15em;
+}
